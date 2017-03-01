@@ -1,0 +1,23 @@
+{
+  "name": "Alien-Raiders",
+  "version": "1.0.0",
+  "description": "Alien Raiders is a 1-player game inspired by the classic game, Space Invaders.\r In space invaders, the player starts out at the bottom of the screen while an\r army of aliens spawn at the top in a formation.",
+  "main": "index.js",
+  "scripts": {
+    "ww": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidtannyu/Alien-Raiders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidtannyu/Alien-Raiders/issues"
+  },
+  "homepage": "https://github.com/davidtannyu/Alien-Raiders#readme",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  }
+}
