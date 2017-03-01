@@ -1,7 +1,7 @@
 ### Background
 
 Alien Raiders is a 1-player game inspired by the classic game, Space Invaders.
-In space invaders, the player starts out at the bottom of the screen while an
+In Space Invaders, the player starts out at the bottom of the screen while an
 army of aliens spawn at the top in a formation.
 
 The player's controls are left, right and fire. Upon firing, a projectile will
@@ -33,25 +33,28 @@ This project will be implemented with the following technologies:
 
 - Vanilla JavaScript for overall structure and game logic,
 - JQuery for DOM manipulation,
-- `Easel.js` with `HTML5 Canvas` for handling the drawing of the board,
+- `Easel.js` with `HTML5 Canvas` for handling the drawing of the canvas,
 - Webpack to bundle and serve up the various scripts.
 
 In addition to the webpack entry file, there will be three scripts involved in this project:
 
 `board.js`: this script will handle the logic for the game state and the rendering.
 It will hold the score and the state of the game.
+
 `player.js`: this script will handle the logic of the player and controls. It will
 hold the position of the player.
+
 `aliens.js`: this script will handle the movement of the aliens. It will house the
 constructor of the alien which includes a position and number of points it is worth.
 
 ### Implementation Timeline
 Day 1: Install and save dependencies such as webpack and Easel.js. Create a package and
 webpack config file, respectively named webpack.config.js and package.json.  Write
-an entry file and templates for the 3 scripts. Review the basics of HTML5 Canvas.
+an entry file and templates for the 3 scripts. Review the basics of HTML5 Canvas
+and learn about Easel.
 Goals for the day:
 - Get the title and boxes that will contain the items to show up on the screen
-- Render a object on the Easel
+- Render a object on the canvas
 
 Day 2:  Build the player class and the logic. Render the player on the board and
 ensure the controls are working in that the player is observed to be moving upon
