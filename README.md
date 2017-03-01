@@ -31,8 +31,9 @@ of the game (ex. Start the game) as well as the actions during the game (ex. Mov
 
 This project will be implemented with the following technologies:
 
-- Vanilla JavaScript and `jQuery` for overall structure and game logic,
-- `Easel.js` with `HTML5 Canvas` for DOM manipulation and rendering,
+- Vanilla JavaScript for overall structure and game logic,
+- JQuery for DOM manipulation,
+- `Easel.js` with `HTML5 Canvas` for handling the drawing of the board,
 - Webpack to bundle and serve up the various scripts.
 
 In addition to the webpack entry file, there will be three scripts involved in this project:
