@@ -1,3 +1,7 @@
+html {
+  background: grey;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -17,4 +21,5 @@
 
 canvas {
   border: 1px solid black;
+  background: crimson;
 }
