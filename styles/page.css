@@ -14,3 +14,7 @@
 .game-canvas {
   display: block;
 }
+
+canvas {
+  border: 1px solid black;
+}
