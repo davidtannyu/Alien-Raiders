@@ -41,6 +41,7 @@ canvas {
 .controls {
   position: relative;
   color: white;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .control-text {
