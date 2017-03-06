@@ -33,3 +33,17 @@ canvas {
   color: white;
   font-family: 'Orbitron', sans-serif;
 }
+
+.hidden {
+  display: none;
+}
+
+.controls {
+  position: relative;
+  color: white;
+}
+
+.control-text {
+  position: absolute;
+  color: white;
+}
