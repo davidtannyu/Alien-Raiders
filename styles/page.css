@@ -1,6 +1,6 @@
 html {
   background-image: url("../assets/aliens-bg.jpg");
-  background-size: 100%;
+  background-size: cover;
 }
 
 .content {
