@@ -87,8 +87,13 @@ canvas {
 }
 
 footer {
+  width: 100%;
   padding: 20px;
   background-color: black;
+}
+
+body {
+  margin: 0;
 }
 
 footer > div {
