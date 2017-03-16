@@ -61,6 +61,7 @@ canvas {
   width: 40%;
   font-family: 'Orbitron';
   text-align:right;
+  line-height: 150%;
 }
 
 .modal .content p, h3 {
