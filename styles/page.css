@@ -1,5 +1,6 @@
 html {
-  background: black;
+  background-image: url("../assets/aliens-bg.jpg");
+  background-size: 100%;
 }
 
 .content {
@@ -21,7 +22,9 @@ html {
 
 canvas {
   border: 1px solid black;
-  background: darkmagenta;
+  background-image: url("../assets/hallway.jpg");
+  background-size: contain;
+  background-size: cover;
 }
 
 .title {
@@ -81,6 +84,11 @@ canvas {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
 }
 
 footer > div {
