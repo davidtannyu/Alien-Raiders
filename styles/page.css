@@ -11,9 +11,10 @@ html {
   height: auto;
 }
 
-.row {
+.column {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .game-canvas {
