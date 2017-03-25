@@ -1,5 +1,6 @@
 html {
-  background: black;
+  background-image: url("../assets/aliens-bg.jpg");
+  background-size: cover;
 }
 
 .content {
@@ -21,7 +22,9 @@ html {
 
 canvas {
   border: 1px solid black;
-  background: darkmagenta;
+  background-image: url("../assets/hallway.jpg");
+  background-size: contain;
+  background-size: cover;
 }
 
 .title {
@@ -29,13 +32,7 @@ canvas {
   color: green;
 }
 
-.score {
-  color: white;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.controls {
-  position: relative;
+.score, .level, .controls{
   color: white;
   font-family: 'Orbitron', sans-serif;
 }
@@ -61,6 +58,7 @@ canvas {
   width: 40%;
   font-family: 'Orbitron';
   text-align:right;
+  line-height: 150%;
 }
 
 .modal .content p, h3 {
@@ -80,4 +78,27 @@ canvas {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+footer {
+  padding: 10px;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > h1 {
+  text-align: center;
+  font-family: "Orbitron";
+}
+
+footer * {
+  color: white;
 }
