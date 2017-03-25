@@ -11,16 +11,6 @@ html {
   height: auto;
 }
 
-.column {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.game-canvas {
-  display: flex;
-}
-
 canvas {
   border: 1px solid black;
   background-image: url("../assets/hallway.jpg");
@@ -102,4 +92,14 @@ footer > h1 {
 
 footer * {
   color: white;
+}
+
+div.column {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+div.game-canvas {
+  display: flex;
 }
