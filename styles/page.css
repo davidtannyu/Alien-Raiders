@@ -98,7 +98,7 @@ div.column {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 div.game-canvas {
