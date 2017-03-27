@@ -13,7 +13,7 @@ html {
 
 canvas {
   border: 1px solid black;
-  background-image: url("../assets/hallway.jpg");
+  background-image: url("../assets/game-bg.jpg");
   background-size: contain;
   background-size: cover;
 }
