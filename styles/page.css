@@ -72,7 +72,8 @@ canvas {
 }
 
 footer {
-  padding: 10px;
+  padding: 5px;
+  margin-top: 5px;
   background-color: black;
 }
 
@@ -82,7 +83,12 @@ body {
 
 footer > div {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+footer i {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 footer > h1 {
