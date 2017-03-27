@@ -104,4 +104,6 @@ div.column {
 div.game-canvas {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
