@@ -2,17 +2,23 @@
 
 Alien Raiders is a 1-player game inspired by the classic game, Space Invaders.
 In Space Invaders, the player starts out at the bottom of the screen while an
-army of aliens spawn at the top in a formation.
+army of aliens spawn at the top in a formation. Keep in mind that you will get
+more points as the aliens get faster.
 
 ### Controls
 
 On the page, controls can be found after clicking on the controls text.
 
 Controls
-A / ← = Move left 
+
+A / ← = Move left
+
 D / → = Move right 
+
 Space = Shoot 
+
 P = Pause/Resume/Start Game
+
 R = Reset Game
 
 ### Starting
