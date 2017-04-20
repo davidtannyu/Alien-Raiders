@@ -58,24 +58,24 @@ you will receive. Pick the powerups that appear to have faster bullets.
 
 ### Legends
 
-![alien]( =100x100)
+![alien]
 
 Alien: Shoot these to gain points. They will travel from left to right and go down
 a level each time the side aliens hit the boundary. They become faster as they get
 closer to the player.
 
-![player]( =100x100)
+![player]
 
 Player: This is you. You will be moving this character left and right to try to
 shoot the aliens before they get to you.
 
-![powerup]( =100x100)
+![powerup]
 
 Power up: These powerups are called "Air-Piercing Bullets" that increase your
 bullet speed every time the player picks it up. They drop after every completed
 level.
 
-[alien]:./assets/alien.png
-[player]:./assets/player.png
-[powerup]:./assets/powerup.png
+[alien]:(./assets/alien.png=100x100)
+[player]:(./assets/player.png=100x100)
+[powerup]:(./assets/powerup.png=100x100)
 [live]:./assets/alienraiders.png
