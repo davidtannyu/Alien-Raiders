@@ -2,6 +2,8 @@
 
 You can find a live version of the game here: https://davidtan.pro/Alien-Raiders/
 
+![live]
+
 ### Background
 
 Alien Raiders is a 1-player game inspired by the classic game, Space Invaders.
@@ -53,3 +55,6 @@ Your score can be seen on the right side of the screen.
 
 Try to see if you can get a high score! The faster the aliens are the more points
 you will receive. Pick the powerups that appear to have faster bullets.
+
+
+[live]:./assets/alienraiders.png
