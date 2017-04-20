@@ -1,3 +1,7 @@
+### Try the game
+
+You can find a live version of the game here: https://davidtan.pro/Alien-Raiders/
+
 ### Background
 
 Alien Raiders is a 1-player game inspired by the classic game, Space Invaders.
