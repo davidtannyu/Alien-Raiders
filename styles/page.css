@@ -11,6 +11,11 @@ html {
   height: auto;
 }
 
+.centered {
+  align-items: center;
+}
+
+
 canvas {
   border: 1px solid black;
   background-image: url("../assets/game-bg.jpg");
@@ -19,8 +24,10 @@ canvas {
 }
 
 .title {
-  font-family: 'Creepster', cursive;
-  color: green;
+  background: url("../assets/title.jpg") no-repeat center center;
+  background-size: 900px 100px;
+  height: 100px;
+  width:  900px;
 }
 
 .score, .level, .controls{
@@ -74,7 +81,7 @@ canvas {
 footer {
   box-shadow: 0px 500px 0px 500px #000;
   padding: 5px;
-  margin-top: 20px;
+  margin-top: 5px;
   background-color: black;
 }
 
@@ -93,6 +100,7 @@ footer i {
 }
 
 footer > h1 {
+  font-size: 20px;
   text-align: center;
   font-family: "Orbitron";
 }
@@ -105,7 +113,8 @@ div.column {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  margin-left: 20px;
+  width: 99px;
+  background-color: black;
 }
 
 div.game-canvas {
