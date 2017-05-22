@@ -127,3 +127,14 @@ div.game-canvas {
 div.controls:hover {
   cursor: pointer;
 }
+
+.relative {
+  position: relative;
+}
+
+.absolute-text {
+  position: absolute;
+  text-align: center;
+  bottom: 25px;
+  width:100%;
+}
