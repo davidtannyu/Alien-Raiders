@@ -1,7 +1,9 @@
+const path = require('path');
+
 module.exports = {
   entry: "./lib/main.js",
   output: {
-    path: "./lib",
+    path:  __dirname + "./lib",
   	filename: "alien_raiders.js"
   },
   resolve: {
